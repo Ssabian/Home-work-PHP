@@ -1,0 +1,33 @@
+@font-face {
+  font-family: MenimFontum;
+  src: url(AphroditeSlimPro.otf) format("opentype");
+}
+.main{
+   	margin:auto 300px ;
+   }
+   .logDiv{
+   	width: 300px;
+   	height: 500px;
+   	background-color:#F54E3E;
+   	box-shadow: 5px -1px 19px 2px;
+    float:left;
+   }
+.main span{
+	font-family: MenimFontum;
+	font-size: 25px;
+
+}
+.logDiv h3{
+	font-family: MenimFontum;
+	font-size: 25px;
+
+}
+input{
+	margin: 22px;
+	float: left;
+	width: 240px;
+    height: 25px;
+}
+.check{
+  margin: 10px;
+}
