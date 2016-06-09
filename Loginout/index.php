@@ -15,23 +15,26 @@
 
 	</style>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="../jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="../main.js"></script>
+
 </head>
 <body>
 <section>
 	<div class="main">
-		<span>Book.Me</span>
+		<span><b>Book.Me</b></span>
 	
 	<hr>
 
 		<div class="logDiv">
-			<h3><bold>Login</bold></h3>
-			<p></p>
-			<pre>
+			<h3 class="log"><bold>Login</bold></h3>
+			
+			
 			<form action="admin/check.php" method="post">
 				<input type="text" name="user" placeholder="example@mail">
 					
 				<input type="password"  name="pass" placeholder="password">
-				<input type="submit" value="submit">
+				<input class="btn" type="submit" value="submit">
 				
 			</form>
             
@@ -41,5 +44,8 @@
 	</div>
 
 </section>
+<script type="text/javascript" src="../jquery-1.12.4.js"></script>
+<script type="text/javascript" src="../main.js"></script>
+
 </body>
 </html>

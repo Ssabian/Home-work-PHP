@@ -11,23 +11,62 @@
    	background-color:#F54E3E;
    	box-shadow: 5px -1px 19px 2px;
     float:left;
+    border-radius: 30px;
    }
 .main span{
 	font-family: MenimFontum;
 	font-size: 25px;
-
 }
+
 .logDiv h3{
-	font-family: MenimFontum;
-	font-size: 25px;
-
-}
+	  margin-left: 65px;
+    font-family: MenimFontum;
+    font-size: 45px;
+  }
 input{
-	margin: 22px;
-	float: left;
-	width: 240px;
+	  margin: 10px;
+    float: left;
+    width: 240px;
     height: 25px;
+    margin-left: 28px;
+    border-bottom-right-radius: 20px;
+}
+.btn{
+  transition: all 2s ease;
+}
+.btn:hover{
+background-color: black;
+transition: all 2s ease;
 }
 .check{
   margin: 10px;
+}
+.error{
+/*  width: 100px;
+  height: 50px;*/
+  background-color: yellow;
+  display: none;
+  padding: 20px;
+}
+/*admin php desing*/
+.wel{
+  width: 200px;
+  height: 50px;
+  /*background-color: yellow;*/
+  font-family: MenimFontum;
+  /*padding: 10px;*/
+  font-size: 30px;
+  margin: auto 90px;
+}
+.lbtn{
+  border-radius: 20px;
+  margin-top: 50px;
+  padding: 15px;
+  width: 150px;
+  margin-left: 75px;
+  transition: all 2s ease;
+}
+.lbtn:hover{
+background-color: black;
+transition: all 2s ease;
 }

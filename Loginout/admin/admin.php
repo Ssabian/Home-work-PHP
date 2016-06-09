@@ -1,9 +1,9 @@
 <?php 
 session_start();
 if(isset($_SESSION["username"])){
-	echo "succest";
+	// echo "succest";
 }else{
-	echo "error";
+	// echo "error";
 	header("Location:../index.php");
 }
 ?>
@@ -22,10 +22,10 @@ if(isset($_SESSION["username"])){
 
 		<div class="logDiv">
 			<h3><bold>Login</bold></h3>
-			<pre>
-			<p>WELCOME</p>
-			<pre>
-			<a href="logout.php"><button>LogOUT</button> </a>
+			
+			<div class="wel"><b>Welcome</b></div>
+			
+			<a href="logout.php"><button class="lbtn">LogOUT</button> </a>
 		</div>
 
 	</div>
